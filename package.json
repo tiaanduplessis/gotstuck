@@ -1,0 +1,27 @@
+{
+  "name": "gotstuck",
+  "description": "Swiftly check Github, Stackoverflow & DuckDuckGo for an error",
+  "version": "1.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "lint": "xo --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/gotstuck.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "gotstuck": "cli.js"
+  },
+  "dependencies": {
+    "open": "^7.0.4"
+  },
+  "devDependencies": {
+    "xo": "^0.32.1"
+  }
+}
